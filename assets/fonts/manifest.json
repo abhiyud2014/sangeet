@@ -1,0 +1,30 @@
+[
+  {
+    "family": "cormorant",
+    "style": "italic",
+    "weight": "300 700",
+    "file": "cormorant-400-italic.woff2",
+    "bytes": 25184
+  },
+  {
+    "family": "cormorant",
+    "style": "normal",
+    "weight": "300 700",
+    "file": "cormorant-400.woff2",
+    "bytes": 23416
+  },
+  {
+    "family": "outfit",
+    "style": "normal",
+    "weight": "200 700",
+    "file": "outfit-200.woff2",
+    "bytes": 14808
+  },
+  {
+    "family": "bengali",
+    "style": "normal",
+    "weight": "400 700",
+    "file": "bengali-400.woff2",
+    "bytes": 10236
+  }
+]
