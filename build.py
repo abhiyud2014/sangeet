@@ -58,6 +58,7 @@ VIDEOS = [
     ("d1q0fTDZOCg", "Bhajamana Dinajana Dukhaharinku", "Snehali Senapati"),
     ("XMmoE1NSLvA", "Dinabandhu Daitari Dukha", "Snehali Senapati"),
     ("94j9i1nY--g", "Bhakata Bidura Sagabhaja Dei", "Ranjan Mudui"),
+    ("5NTDrSxFsnk", "Niswa Kara he Mote Biswabihari", "Mohit Rath"),
 ]
 
 # Photos used for the hero slideshow (file stems)
