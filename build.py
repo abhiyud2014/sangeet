@@ -62,6 +62,7 @@ VIDEOS = [
     ("CKkfCeszsyU", "Abadha Muthie Mote Milu", "Mohit Rath"),
     ("xXiZMpy5Nng", "Patita Jananku Uddhariba Pain", "Manas Rath"),
     ("68JyPsTszok", "Achyutam Keshavam Krishna Damodaram", "Amaira Panda & Advika Mishra"),
+    ("C4denvnCP6U", "Bol Pinjare Ka Tota Ram", "Swarup Rath"),
 ]
 
 # Photos used for the hero slideshow (file stems)
