@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <a class="skip-link" href="#gallery">Skip to the gallery</a>
+  <a class="skip-link" href="#films">Skip to the films</a>
 
   <div class="grain" aria-hidden="true"></div>
   <div class="page-progress" aria-hidden="true"><span></span></div>
@@ -49,11 +49,11 @@
 
     <nav class="primary-nav" aria-label="Primary">
       <a href="#night">The evening</a>
-      <a href="#gallery">Gallery</a>
       <a href="#films">Films</a>
+      <a href="#gallery">Gallery</a>
     </nav>
 
-    <a class="header-cta" href="#gallery">View all photographs</a>
+    <a class="header-cta" href="#films">Watch the films</a>
 
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-menu-toggle>
       <span class="nav-toggle-label">Menu</span>
@@ -65,8 +65,8 @@
     <div class="menu-glow" aria-hidden="true"></div>
     <nav class="menu-nav" aria-label="Site">
       <a href="#night" data-menu-link><span class="menu-index">01</span><span class="menu-label">The evening</span></a>
-      <a href="#gallery" data-menu-link><span class="menu-index">02</span><span class="menu-label">Gallery</span><span class="menu-count">99</span></a>
-      <a href="#films" data-menu-link><span class="menu-index">03</span><span class="menu-label">Films</span><span class="menu-count">10+</span></a>
+      <a href="#films" data-menu-link><span class="menu-index">02</span><span class="menu-label">Films</span><span class="menu-count">10+</span></a>
+      <a href="#gallery" data-menu-link><span class="menu-index">03</span><span class="menu-label">Gallery</span><span class="menu-count">99</span></a>
     </nav>
     <p class="menu-note">A night of song, devotion and togetherness — kept here in ninety-nine frames and more than ten films.</p>
     <div class="menu-foot">
@@ -100,13 +100,13 @@
         </div>
 
         <div class="hero-actions hero-reveal">
-          <a class="btn btn-solid" href="#gallery">
-            <span>Explore the photographs</span>
-            <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right" /></svg>
-          </a>
-          <a class="btn btn-ghost" href="#films">
+          <a class="btn btn-solid" href="#films">
             <svg class="icon" aria-hidden="true"><use href="#icon-play" /></svg>
             <span>Watch the films</span>
+          </a>
+          <a class="btn btn-ghost" href="#gallery">
+            <span>Explore the photographs</span>
+            <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right" /></svg>
           </a>
         </div>
       </div>
@@ -159,8 +159,8 @@
             </div>
           </dl>
 
-          <a class="link-arrow" href="#gallery" data-reveal>
-            <span>Enter the gallery</span>
+          <a class="link-arrow" href="#films" data-reveal>
+            <span>Watch the films</span>
             <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right" /></svg>
           </a>
         </div>
@@ -186,11 +186,25 @@
       </div>
     </section>
 
+    <!-- ═══════════════ FILMS ═══════════════ -->
+    <section class="films" id="films" aria-labelledby="films-title">
+      <header class="films-head">
+        <div>
+          <p class="eyebrow" data-reveal>02 — The films</p>
+          <h2 class="section-title" id="films-title" data-reveal>Ten+ performances,<br /><em>recorded live.</em></h2>
+        </div>
+        <p class="films-note" data-reveal>Filmed on the night and shared on YouTube — more than ten performances, from bhajans and stotram to a full Geeta path. Press play to watch here.</p>
+      </header>
+
+      <div class="film-feature" data-film-feature data-reveal></div>
+      <div class="film-grid" data-film-grid></div>
+    </section>
+
     <!-- ═══════════════ GALLERY ═══════════════ -->
     <section class="gallery" id="gallery" aria-labelledby="gallery-title">
       <header class="gallery-head">
         <div>
-          <p class="eyebrow" data-reveal>02 — The gallery</p>
+          <p class="eyebrow" data-reveal>03 — The gallery</p>
           <h2 class="section-title" id="gallery-title" data-reveal>Every frame<br /><em>of the night.</em></h2>
         </div>
         <p class="gallery-note" data-reveal>Photographed between 5:38 and 8:37 in the evening, on 18 October 2026. Click any frame to open it full-size.</p>
@@ -213,24 +227,10 @@
         <span class="gallery-end-rule" aria-hidden="true"></span>
         <p>That was the evening, frame by frame.</p>
         <div class="gallery-end-actions">
-          <a class="btn btn-ghost" href="#films"><svg class="icon" aria-hidden="true"><use href="#icon-play" /></svg><span>Now watch the films</span></a>
+          <a class="btn btn-ghost" href="#top"><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up" /></svg><span>Back to the top</span></a>
           <a class="link-arrow" href="#top"><span>Back to the top</span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up" /></svg></a>
         </div>
       </div>
-    </section>
-
-    <!-- ═══════════════ FILMS ═══════════════ -->
-    <section class="films" id="films" aria-labelledby="films-title">
-      <header class="films-head">
-        <div>
-          <p class="eyebrow" data-reveal>03 — The films</p>
-          <h2 class="section-title" id="films-title" data-reveal>Ten+ performances,<br /><em>recorded live.</em></h2>
-        </div>
-        <p class="films-note" data-reveal>Filmed on the night and shared on YouTube — more than ten performances, from bhajans and stotram to a full Geeta path. Press play to watch here.</p>
-      </header>
-
-      <div class="film-feature" data-film-feature data-reveal></div>
-      <div class="film-grid" data-film-grid></div>
     </section>
 
     <!-- ═══════════════ CLOSING ═══════════════ -->
@@ -261,8 +261,8 @@
       </a>
       <nav class="footer-nav" aria-label="Footer">
         <a href="#night">The evening</a>
-        <a href="#gallery">Gallery</a>
         <a href="#films">Films</a>
+        <a href="#gallery">Gallery</a>
         <a href="https://www.youtube.com/results?search_query=Sangeetayana+Biranarasinghpur" target="_blank" rel="noopener">YouTube<svg class="icon icon-xs" aria-hidden="true"><use href="#icon-external" /></svg></a>
       </nav>
     </div>
