@@ -66,6 +66,7 @@ VIDEOS = [
     ("2Rpo3mNXQ0c", "Guhari Suna Bhagabana", "Suman Mohapatra"),
     ("lAuvsyG3VUs", "Maa Tume Mamatara Seemahina", "Anupama Mishra"),
     ("-W5Qo9tob7E", "Jeebana re Thibi Jebe", "Ranjan Mudui"),
+    ("09Eab2kEQqM", "Banchi Mu Rahichi Tumaku Nei", "Anupama Mishra"),
 ]
 
 # Photos used for the hero slideshow (file stems)
