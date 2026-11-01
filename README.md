@@ -2,7 +2,8 @@
 
 A self-contained photo and film gallery for **Sangeetayana**, an evening of music held at
 Biranarasinghpur, Odisha on 18 October 2026. The site presents all 99 photographs and
-9 YouTube films in a responsive, editorial layout — no framework, no build step at runtime.
+more than twenty YouTube films in a responsive, editorial layout — no framework, no
+build step at runtime.
 
 ## Viewing the site
 
@@ -66,7 +67,7 @@ fromKukan/
 ├─ README.md                   This file
 ├─ manifest.webmanifest        PWA manifest
 ├─ build.py                    Asset pipeline (EXIF → WebP, data.js, branding)
-├─ videos.txt                  Source list of nine YouTube URLs
+├─ videos.txt                  Source list of YouTube URLs
 ├─ images/                     99 original photographs (untouched)
 └─ assets/
    ├─ css/style.css            Design system, layout, responsive rules
@@ -76,7 +77,7 @@ fromKukan/
    └─ media/
       ├─ photos/               99 photos × 4 WebP sizes
       ├─ hero/                 Four hero frames
-      ├─ films/                Nine local YouTube thumbnails
+      ├─ films/                Local YouTube thumbnails
       ├─ icons/                PWA icons
       ├─ og.jpg                Social preview image
       └─ favicon.svg
