@@ -523,7 +523,10 @@ ul {
   visibility: hidden;
   transform: translateY(-1.5%);
   transition: opacity 0.55s var(--ease), visibility 0.55s, transform 0.7s var(--ease);
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 .menu.is-open {
   opacity: 1;
@@ -1085,7 +1088,7 @@ ul {
   background: linear-gradient(180deg, rgba(8, 7, 6, 0.15) 0%, rgba(8, 7, 6, 0.55) 55%, rgba(8, 7, 6, 0.92) 100%);
   pointer-events: none;
 }
-.chapter > span:not(.chapter-bg) {
+.chapter > span:not(.chapter-bg):not(.chapter-index) {
   position: relative;
   z-index: 2;
 }
@@ -1104,6 +1107,7 @@ ul {
   position: absolute;
   top: 1rem;
   left: 1.2rem;
+  z-index: 2;
   color: var(--gold);
   font-size: 0.56rem;
   letter-spacing: 0.2em;
@@ -2679,6 +2683,28 @@ body.is-ready .hero-reveal {
   .fact dd {
     font-size: 1.2rem;
     text-align: right;
+  }
+}
+
+/* Short viewports (landscape phones): compact, scrollable menu */
+@media (max-height: 560px) {
+  .menu {
+    padding-top: calc(var(--header-h) + 0.75rem);
+    padding-bottom: 1rem;
+  }
+  .menu-nav a {
+    padding: 0.45rem 0;
+  }
+  .menu-label {
+    font-size: clamp(1.75rem, 6.5vh, 2.6rem);
+  }
+  .menu-note {
+    margin-top: 0.9rem;
+    font-size: 0.95rem;
+  }
+  .menu-foot {
+    padding-top: 1.2rem;
+    line-height: 1.6;
   }
 }
 
